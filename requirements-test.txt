@@ -9,3 +9,4 @@ flake8
 # molecule
 git+https://github.com/ansible/molecule.git#egg=molecule
 pre-commit
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
